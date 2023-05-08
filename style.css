@@ -1,0 +1,169 @@
+/* Vector 
+
+position: absolute;
+left: 36.67%;
+right: 37.43%;
+top: 0%;
+bottom: 0%;
+*/
+/* Dark blue/dark-blue-300 background: #0A3871;*/
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f3f5fc;
+
+}
+.imagenLogo{
+    padding: 15px;
+    margin: 0 auto;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* se da estilo al arae de texto */
+.textoArea{
+    position: absolute;
+    width: 42%;
+    height: 60%;
+    left: 12%;
+    top: 15%;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;
+    background-color: #f3f5fc;
+
+}
+
+.textoArea::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;
+}
+
+.textoArea:focus, .textoArea:active{
+    border: none;
+    outline: none;
+}
+/* estilo a los terminos, parrafos  */
+.textoParrafo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    position: absolute;
+    left: 12%;
+    top: 80%
+}
+
+
+.textoParrafo p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 7px;
+    margin-top: 2px;
+    color: #495057;
+    opacity: 0.8;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1% 0;
+    position: absolute;
+    width: 80%;
+    left: 12%;
+    top: 85%;
+
+}
+
+.btnEncriptar{
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gap:8px;
+    width: 25%;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center; 
+    background-color: #0A3871;
+    color: #f3f5fc;
+
+}
+.btnDencriptar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2%;
+    gap: 8px;
+    width: 25%;
+    background-color: #d8dfe8;
+    border:  1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+}
+.btnDencriptar:hover,
+.btnEncriptar:hover{
+    margin: 0.3%;
+    width: 24.5%;
+    padding: 1.8%;
+}
+/*.btn input{
+    width: 50%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #351fb49c ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px 10px 10px 10px;
+}*/
+
+.seccionMunieco{
+    position: absolute;
+    width: 400px;
+    height: 93%;
+    left: 70%;
+    top: 30px;
+    bottom: 30px;
+    /* White */
+    background:#fff;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.8);
+    border-radius: 32px;
+    text-align: center;
+}
+
+
